@@ -1,0 +1,148 @@
+.body{
+    border: black;
+    border-style: solid;
+    height: max-content;
+}
+.column{
+    float: center;
+    width: 33.33%
+}
+
+.row::after{
+    content:"";
+    clear:both;
+    display: table;border: 2px solid black;
+}
+.icon{
+    margin-left: 2%;
+    float: left;
+    height: 40px;
+    width: 40px;
+}
+
+.text1{
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    right: 3px;
+    
+}
+
+.site{
+    text-align: center;    
+}
+
+.sub{
+    text-align: right;
+}
+
+.low{
+    padding-block: 5mm;
+    height: fit-content;
+}
+
+.yellow{
+    height: fit-content;
+    background-color: orange;
+}
+
+.header{
+    background: linear-gradient(to right,
+    white 0%,
+    white 50%,
+    orange 50%,
+    orange 100%);
+    height: max-content;
+
+}
+
+.ham{
+   position: absolute;
+   top: 80px;
+   right: 80px;
+}
+
+.menu{
+    position: relative;
+    bottom: -420px;
+    padding: 50px;
+    background-color: white;
+}
+
+.pro{
+    position: relative;
+    bottom: -420px;
+    padding: 50px;
+    background-color: white;
+}
+
+.text-block{
+    position: absolute;
+    border-style: 5px solid #555;
+    text-align: center;
+}
+
+span {
+    color: orange;
+}
+
+.practise{
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    word-spacing: 30px;
+}
+
+ul{
+    float: right;
+    height: 50px;
+}
+
+ul li{
+    display: inline;
+    margin: 0 20px;
+    font-weight: bolder;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+ul li a:hover{
+    color: purple;
+}
+strong{
+    text-transform: inherit;
+    position: relative ;
+    display: flex;
+    font-size: 1cm;
+    font-style: italic;
+}
+.zoom{
+    border: solid greenyellow ;
+    display: flex  ;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.zoom img{
+    justify-content:center ;
+    align-content: center;
+    top: auto;
+}
+
+.zoom2{
+    border: solid greenyellow ;
+    display: flex  ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+h2{
+    font: bolder;
+    position: static;
+
+}
